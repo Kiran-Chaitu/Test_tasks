@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_tasks/views/home_screen/widgets/blue_box.dart';
-import 'package:test_tasks/views/home_screen/widgets/greetings.dart';
-import 'package:test_tasks/views/home_screen/widgets/pack_interface.dart';
-import 'package:test_tasks/views/home_screen/widgets/quick_actions.dart';
+import './widgets/widgets.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

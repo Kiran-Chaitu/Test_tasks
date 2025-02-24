@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_tasks/configs/colors/app_colors.dart';
 
 import '../../../utils/utils.dart';
 
@@ -36,7 +37,7 @@ class QuickActions extends StatelessWidget {
                   'Quick Actions',
                   textAlign: TextAlign.left,
                   style: TextStyle(
-                      color: Colors.blue,
+                      color: AppColors.secondaryColor,
                       fontSize: 20,
                       fontWeight: FontWeight.bold),
                 ),
@@ -54,8 +55,7 @@ class QuickActions extends StatelessWidget {
                             width: height * 0.06,
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(50),
-                                color:
-                                    const Color.fromARGB(255, 229, 224, 224)),
+                                color: AppColors.gridsBackgroundColor),
                             child: Icon(
                               Utils.gridIcons[index],
                             ),
