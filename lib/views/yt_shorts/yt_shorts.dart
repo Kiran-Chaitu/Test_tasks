@@ -28,17 +28,19 @@ class _YtShortsState extends State<YtShorts> {
       body: BlocBuilder<BottomNavBarCubit, int>(
         builder: (context, index) {
           return screens[index];
+          
         },
+        
       ),
       bottomNavigationBar: BlocBuilder<BottomNavBarCubit, int>(
         builder: (context, currentIndex) {
           return BottomNavigationBar(
-            
               type: BottomNavigationBarType.fixed,
               backgroundColor: AppColors.primaryColor,
               selectedItemColor: Colors.white,
               unselectedItemColor: Colors.white,
               currentIndex: currentIndex,
+              
               onTap: (index) =>
                   context.read<BottomNavBarCubit>().changeTab(index),
               items: [
