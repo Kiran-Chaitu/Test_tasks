@@ -78,7 +78,7 @@ class _YtShortsState extends State<YtShorts> {
                         : CustomIcon(iconData: Icons.subscriptions_outlined),
                     label: 'Subscriptions'),
                 BottomNavigationBarItem(
-                    icon: (currentIndex == 3)
+                    icon: (currentIndex == 4)
                         ? CustomIcon(
                             iconData: Icons.person,
                           )
