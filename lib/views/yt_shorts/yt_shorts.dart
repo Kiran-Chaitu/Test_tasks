@@ -63,11 +63,9 @@ class _YtShortsState extends State<YtShorts> {
                           ),
                     label: 'Shorts'),
                 BottomNavigationBarItem(
-                    icon: Container(
-                      child: Icon(
-                        Icons.add,
-                        color: Colors.white,
-                      ),
+                    icon: Icon(
+                      Icons.add,
+                      color: Colors.white,
                     ),
                     label: ''),
                 BottomNavigationBarItem(
